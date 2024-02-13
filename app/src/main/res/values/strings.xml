@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LanguageApp</string>
+
+    <string name="downloading">Downloading %1$s</string>
+    <string name="installing">Installing %1$s</string>
+    <string name="error_for_module">Error: %1$i for module %2$s</string>
+    <string name="user_cancelled">The user cancelled module installation</string>
+    <string name="loading_language">Loading language %1$s</string>
+    <string name="already_installed">Already installed</string>
+    <string name="starting_install_for">Starting install for %1$s</string>
+    <string name="force_english">Force English</string>
+    <string name="force_spanish">Force Spanish</string>
+    <string name="loading">loading</string>
+    <string name="instructions">Press a button to perform an action.</string>
+    <string name="check">check language</string>
+    <string name="language">english</string>
+</resources>

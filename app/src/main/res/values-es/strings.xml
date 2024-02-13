@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LanguageApp</string>
+    <string name="downloading">descargando %1$s</string>
+    <string name="installing">Instalación %1$s</string>
+    <string name="error_for_module">Error: %1$i para el módulo %2$s</string>
+    <string name="user_cancelled">El usuario canceló la instalación del módulo.</string>
+    <string name="loading_language">Cargando idioma %1$s</string>
+    <string name="already_installed">Ya instalado</string>
+    <string name="starting_install_for">Iniciando la instalación para %1$s</string>
+    <string name="force_english">Forzar inglés</string>
+    <string name="force_spanish">Fuerza española</string>
+    <string name="loading">cargando</string>
+    <string name="instructions">Presione un botón para realizar una acción.</string>
+    <string name="check">comprobar idioma</string>
+    <string name="language">español</string>
+</resources>
