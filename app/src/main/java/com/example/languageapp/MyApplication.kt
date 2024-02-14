@@ -31,7 +31,7 @@ object LanguageHelper {
     lateinit var prefs: SharedPreferences
     var language: String
         get() {
-            return prefs.getString(PREFS_LANG, LANG_EN)!!
+            return prefs.getString(PREFS_LANG, Locale.getDefault().language)!!
         }
         set(value) {
             prefs.edit().putString(PREFS_LANG, value).apply()
