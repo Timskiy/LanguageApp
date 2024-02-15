@@ -155,6 +155,7 @@ class MainActivity : BaseSplitActivity() {
 
     private fun onSuccessfulLanguageLoad(lang: String) {
         LanguageHelper.language = lang
+
         recreate()
     }
 

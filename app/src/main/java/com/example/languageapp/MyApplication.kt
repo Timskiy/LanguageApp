@@ -4,6 +4,9 @@ import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.res.Configuration
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_NO
+import androidx.multidex.MultiDex
 import com.google.android.play.core.splitcompat.SplitCompat
 import java.util.Locale
 
@@ -14,14 +17,15 @@ class MyApplication : Application() {
         val ctx = LanguageHelper.getLanguageConfigurationContext(base)
         super.attachBaseContext(ctx)
         SplitCompat.install(this)
+        MultiDex.install(this)
     }
+
 }
 
 internal const val LANG_EN = "en"
 internal const val LANG_ES = "es"
 
 private const val PREFS_LANG = "language"
-
 /**
  * A singleton helper for storing and retrieving the user selected language in a
  * SharedPreferences instance. It is required for persisting the user language choice between
