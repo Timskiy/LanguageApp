@@ -19,7 +19,6 @@ class MyApplication : Application() {
         SplitCompat.install(this)
         MultiDex.install(this)
     }
-
 }
 
 internal const val LANG_EN = "en"
